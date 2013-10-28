@@ -1,0 +1,176 @@
+div {
+  margin: 1px;
+}
+
+body {
+  background-image: url("../img/diagonal_striped_brick.png");
+}
+
+td:hover {
+  background-color: white;
+  cursor: none;
+}
+
+table {
+  margin-bottom: 1%;
+}
+
+table, th, td {
+  table-layout: fixed;
+  border: 1px none;
+  width: 10px;
+  height: 10px
+}
+
+form {
+  margin-top: 1%;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'VT323', cursive;
+}
+
+a {
+  color: #000000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #CA4C64;
+}
+
+#board {
+  background-color: white;
+  display: inline-block;
+  margin-top: 21px;
+}
+
+#scores {
+  background-color: white;
+  width: 200px;
+  padding-left: 5px;
+  min-height: 310px;
+  vertical-align: top;
+}
+
+.scores {
+  color: #5bc0de;
+  font-size: 20px;
+}
+
+#bios {
+  background-color: white;
+  width: 200px;
+  padding-bottom: 20px;
+  font-family: 'VT323', cursive;
+  vertical-align: top;
+  text-align: center;
+}
+
+#right-column {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#static-problems {
+  color: #CA4C64;
+}
+
+#patterns {
+  background-color: white;
+  text-align: center;
+  font-family: 'VT323', cursive;
+  padding-bottom: 20px;
+}
+
+.pattern {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: none;
+}
+
+#click1 {
+  line-height: 10%;s
+}
+
+#click2 {
+  display: none;
+  line-height: 10%;
+}
+
+.btn {
+  background-color: #CA4C64;
+  border-color: #993246;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'VT323', cursive;
+}
+
+#braden, #abby {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.static-reset {
+  color: #ffffff;
+  background-color: #5bc0de;
+  border-color: #5bc0de;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'VT323', cursive;
+}
+
+.container {
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 800px;
+}
+
+.bio {
+  width: 40px;
+  border-radius: 50% 50%;
+}
+
+.dead {
+  background-color: #AEAEAE;
+}
+
+.live0 {
+  background-color: #D2C8A5;
+}
+
+.live1 {
+  background-color: #767E80;
+}
+
+.live2 {
+  background-color: #474B57;
+}
+
+.live3 {
+  background-color: #86626C;
+}
+
+.live4 {
+  background-color: #CA4C64;
+}
+
+.live5 {
+  background-color: #CA4C64;
+}
+
+.live6 {
+  background-color: #86626C;
+}
+
+.live7 {
+  background-color: #474B57;
+}
+
+.live8 {
+  background-color: #767E80;
+}
+
+

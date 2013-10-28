@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <link href='http://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/scripts.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="board">
+        <h1 id="title"><a href="http://en.wikipedia.org/wiki/Conway's_Game_of_Life" target="_blank">Game of Life</a></h1>
+        <table id="grid"></table>
+        <button id="play" class="btn">Start</button>
+        <button id="pause" class="btn">Pause</button>
+        <button id="reset" class="btn">Reset</button>
+        <button id="step" class="btn">Step</button>
+        <button id="demo" class="btn">Demo!</button>
+<!--        4 lines below here
+ -->        <form id="input">
+          <label for="grid-size">Adjust Grid Size </label>
+          <input id="grid-size" type="number" max=50 min=10 placeholder="Number of Pixels">
+        </form>
+      </div>
+      <div id="right-column">
+        <div id="scores">
+          <h2>Stats</h2>
+          <h4 id="generation">Generations: <span class="scores">0</span></h4>
+          <h4 id="population" >Population: <span class="scores">0</span></h4>
+          <h2>Hi-Scores</h2>
+          <h4 id="generation-high">Most Generations: <span class="scores">0</span></h4>
+          <h4 id="population-high">Highest Population: <span class="scores">0</span></h4>
+          <h4 id="static-problems">Put on some blocks and press start!</h2>
+        </div>
+        <div id="patterns">
+          <h3>Suggested pattern!</h3>
+            <img class="pattern" src="img/pentomino.png">
+          <h3 id="click1">Click to activate</h3>
+          <h3 id="click2">Click board to place</h3>
+        </div>
+        <div id="bios">
+          <h2>Created by</h2>
+          <div id="abby">
+            <h4>Abby</h4>
+            <a href="http://pilou.site44.com/" target="_blank">
+            <img class="bio" src="img/abby.png" alt="Likes bugs more than debugs" class="img-circle"></a>
+          </div>
+          <div id="braden">
+            <h4>Braden</h4>
+            <a href="http://braden.site44.com" target="_blank"><img class="bio" src="img/braden.png" alt="No clip-on ties for this fancy fellow" class="img-circle"></a>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </body>
+</html>
